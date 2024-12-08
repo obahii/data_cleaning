@@ -1,0 +1,713 @@
+2024-12-08 21:11:14,673 - INFO - Started: Loading CSV file
+2024-12-08 21:11:14,693 - INFO - Success: Loading CSV file
+2024-12-08 21:11:14,901 - INFO - Started: Detecting and correcting anomalies in columns
+2024-12-08 21:11:14,903 - WARNING - Anomaly detected in column nom at row 15: Value '2015-06-07' is incorrect.
+2024-12-08 21:11:14,903 - INFO - Anomalies detected in column nom. Applying correction function.
+2024-12-08 21:11:14,904 - INFO - Column nom, row 15: Corrected value: 2015-06-07 -> None
+2024-12-08 21:11:14,904 - WARNING - Anomaly detected in column nom at row 98: Value 'test2' is incorrect.
+2024-12-08 21:11:14,905 - INFO - Anomalies detected in column nom. Applying correction function.
+2024-12-08 21:11:14,905 - INFO - Column nom, row 98: Corrected value: test2 -> None
+2024-12-08 21:11:14,905 - WARNING - Anomaly detected in column nom at row 114: Value 'N'gom' is incorrect.
+2024-12-08 21:11:14,905 - INFO - Anomalies detected in column nom. Applying correction function.
+2024-12-08 21:11:14,905 - INFO - Column nom, row 114: Corrected value: N'gom -> None
+2024-12-08 21:11:14,906 - INFO - Success: Anomalies corrected in column nom
+2024-12-08 21:11:14,907 - WARNING - Anomaly detected in column prenom at row 15: Value 'nan' is incorrect.
+2024-12-08 21:11:14,907 - INFO - Anomalies detected in column prenom. Applying correction function.
+2024-12-08 21:11:14,907 - INFO - Column prenom, row 15: Corrected value: nan -> None
+2024-12-08 21:11:14,907 - WARNING - Anomaly detected in column prenom at row 98: Value 'test2' is incorrect.
+2024-12-08 21:11:14,907 - INFO - Anomalies detected in column prenom. Applying correction function.
+2024-12-08 21:11:14,908 - INFO - Column prenom, row 98: Corrected value: test2 -> None
+2024-12-08 21:11:14,908 - INFO - Success: Anomalies corrected in column prenom
+2024-12-08 21:11:14,929 - WARNING - Anomaly detected in column date_naissance at row 1: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,929 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,930 - INFO - Column date_naissance, row 1: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,930 - WARNING - Anomaly detected in column date_naissance at row 5: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,931 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,931 - INFO - Column date_naissance, row 5: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,932 - WARNING - Anomaly detected in column date_naissance at row 10: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,932 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,932 - INFO - Column date_naissance, row 10: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,932 - WARNING - Anomaly detected in column date_naissance at row 11: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,932 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,932 - INFO - Column date_naissance, row 11: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,933 - WARNING - Anomaly detected in column date_naissance at row 15: Value '88' is incorrect.
+2024-12-08 21:11:14,933 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,934 - INFO - Column date_naissance, row 15: Corrected value: 88 -> None
+2024-12-08 21:11:14,935 - WARNING - Anomaly detected in column date_naissance at row 21: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,935 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,935 - INFO - Column date_naissance, row 21: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,935 - WARNING - Anomaly detected in column date_naissance at row 22: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,935 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,936 - INFO - Column date_naissance, row 22: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,936 - WARNING - Anomaly detected in column date_naissance at row 23: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,936 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,936 - INFO - Column date_naissance, row 23: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,937 - WARNING - Anomaly detected in column date_naissance at row 25: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,937 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,937 - INFO - Column date_naissance, row 25: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,939 - WARNING - Anomaly detected in column date_naissance at row 34: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,939 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,939 - INFO - Column date_naissance, row 34: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,939 - WARNING - Anomaly detected in column date_naissance at row 35: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,939 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,939 - INFO - Column date_naissance, row 35: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,941 - WARNING - Anomaly detected in column date_naissance at row 40: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,941 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,941 - INFO - Column date_naissance, row 40: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,944 - WARNING - Anomaly detected in column date_naissance at row 56: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,944 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,944 - INFO - Column date_naissance, row 56: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,946 - WARNING - Anomaly detected in column date_naissance at row 65: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,946 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,946 - INFO - Column date_naissance, row 65: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,946 - WARNING - Anomaly detected in column date_naissance at row 66: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,946 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,946 - INFO - Column date_naissance, row 66: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,947 - WARNING - Anomaly detected in column date_naissance at row 70: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,947 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,947 - INFO - Column date_naissance, row 70: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,948 - WARNING - Anomaly detected in column date_naissance at row 75: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,948 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,949 - INFO - Column date_naissance, row 75: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,949 - WARNING - Anomaly detected in column date_naissance at row 76: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,949 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,949 - INFO - Column date_naissance, row 76: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,949 - WARNING - Anomaly detected in column date_naissance at row 77: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,949 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,949 - INFO - Column date_naissance, row 77: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,950 - WARNING - Anomaly detected in column date_naissance at row 80: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,950 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,950 - INFO - Column date_naissance, row 80: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,952 - WARNING - Anomaly detected in column date_naissance at row 92: Value '1093-03-11' is incorrect.
+2024-12-08 21:11:14,952 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,952 - INFO - Column date_naissance, row 92: Corrected value: 1093-03-11 -> None
+2024-12-08 21:11:14,953 - WARNING - Anomaly detected in column date_naissance at row 98: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,953 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,954 - INFO - Column date_naissance, row 98: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,954 - WARNING - Anomaly detected in column date_naissance at row 100: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,954 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,954 - INFO - Column date_naissance, row 100: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,954 - WARNING - Anomaly detected in column date_naissance at row 102: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,954 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,955 - INFO - Column date_naissance, row 102: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,955 - WARNING - Anomaly detected in column date_naissance at row 105: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,955 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,955 - INFO - Column date_naissance, row 105: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,956 - WARNING - Anomaly detected in column date_naissance at row 110: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,956 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,956 - INFO - Column date_naissance, row 110: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,957 - WARNING - Anomaly detected in column date_naissance at row 112: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,957 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,957 - INFO - Column date_naissance, row 112: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,960 - WARNING - Anomaly detected in column date_naissance at row 124: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,960 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,960 - INFO - Column date_naissance, row 124: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,962 - WARNING - Anomaly detected in column date_naissance at row 138: Value '0000-00-00' is incorrect.
+2024-12-08 21:11:14,962 - INFO - Anomalies detected in column date_naissance. Applying correction function.
+2024-12-08 21:11:14,963 - INFO - Column date_naissance, row 138: Corrected value: 0000-00-00 -> None
+2024-12-08 21:11:14,964 - INFO - Success: Anomalies corrected in column date_naissance
+2024-12-08 21:11:14,964 - WARNING - Anomaly detected in column cin at row 2: Value 'BB 80536' is incorrect.
+2024-12-08 21:11:14,964 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,964 - INFO - Column cin, row 2: Corrected value: BB 80536 -> BB80536
+2024-12-08 21:11:14,965 - WARNING - Anomaly detected in column cin at row 6: Value '2131565' is incorrect.
+2024-12-08 21:11:14,965 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,965 - INFO - Column cin, row 6: Corrected value: 2131565 -> None
+2024-12-08 21:11:14,965 - WARNING - Anomaly detected in column cin at row 15: Value 'mohamed@gmail.com' is incorrect.
+2024-12-08 21:11:14,965 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,965 - INFO - Column cin, row 15: Corrected value: mohamed@gmail.com -> None
+2024-12-08 21:11:14,965 - WARNING - Anomaly detected in column cin at row 18: Value '1513252689' is incorrect.
+2024-12-08 21:11:14,965 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,965 - INFO - Column cin, row 18: Corrected value: 1513252689 -> None
+2024-12-08 21:11:14,965 - WARNING - Anomaly detected in column cin at row 34: Value 'e' is incorrect.
+2024-12-08 21:11:14,965 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,965 - INFO - Column cin, row 34: Corrected value: e -> None
+2024-12-08 21:11:14,965 - WARNING - Anomaly detected in column cin at row 50: Value 'D005993M' is incorrect.
+2024-12-08 21:11:14,965 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,965 - INFO - Column cin, row 50: Corrected value: D005993M -> None
+2024-12-08 21:11:14,965 - WARNING - Anomaly detected in column cin at row 59: Value '1129410140' is incorrect.
+2024-12-08 21:11:14,966 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,966 - INFO - Column cin, row 59: Corrected value: 1129410140 -> None
+2024-12-08 21:11:14,966 - WARNING - Anomaly detected in column cin at row 65: Value 'ID 50706' is incorrect.
+2024-12-08 21:11:14,966 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,966 - INFO - Column cin, row 65: Corrected value: ID 50706 -> ID50706
+2024-12-08 21:11:14,966 - WARNING - Anomaly detected in column cin at row 111: Value 'AD 99909' is incorrect.
+2024-12-08 21:11:14,966 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,966 - INFO - Column cin, row 111: Corrected value: AD 99909 -> AD99909
+2024-12-08 21:11:14,966 - WARNING - Anomaly detected in column cin at row 133: Value 'I' is incorrect.
+2024-12-08 21:11:14,966 - INFO - Anomalies detected in column cin. Applying correction function.
+2024-12-08 21:11:14,966 - INFO - Column cin, row 133: Corrected value: I -> None
+2024-12-08 21:11:14,966 - INFO - Success: Anomalies corrected in column cin
+2024-12-08 21:11:14,967 - WARNING - Anomaly detected in column tel at row 0: Value '672619167' is incorrect.
+2024-12-08 21:11:14,967 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,967 - INFO - Column tel, row 0: Corrected value: 672619167 -> +212672619167
+2024-12-08 21:11:14,968 - WARNING - Anomaly detected in column tel at row 1: Value '634432230' is incorrect.
+2024-12-08 21:11:14,968 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,968 - INFO - Column tel, row 1: Corrected value: 634432230 -> +212634432230
+2024-12-08 21:11:14,968 - WARNING - Anomaly detected in column tel at row 2: Value '622431159' is incorrect.
+2024-12-08 21:11:14,968 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,968 - INFO - Column tel, row 2: Corrected value: 622431159 -> +212622431159
+2024-12-08 21:11:14,968 - WARNING - Anomaly detected in column tel at row 3: Value '619957741' is incorrect.
+2024-12-08 21:11:14,968 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,969 - INFO - Column tel, row 3: Corrected value: 619957741 -> +212619957741
+2024-12-08 21:11:14,969 - WARNING - Anomaly detected in column tel at row 4: Value '635531363' is incorrect.
+2024-12-08 21:11:14,969 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,969 - INFO - Column tel, row 4: Corrected value: 635531363 -> +212635531363
+2024-12-08 21:11:14,969 - WARNING - Anomaly detected in column tel at row 5: Value '662134567' is incorrect.
+2024-12-08 21:11:14,969 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,969 - INFO - Column tel, row 5: Corrected value: 662134567 -> +212662134567
+2024-12-08 21:11:14,969 - WARNING - Anomaly detected in column tel at row 6: Value '2147483647' is incorrect.
+2024-12-08 21:11:14,969 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,969 - INFO - Column tel, row 6: Corrected value: 2147483647 -> None
+2024-12-08 21:11:14,969 - WARNING - Anomaly detected in column tel at row 7: Value '603787891' is incorrect.
+2024-12-08 21:11:14,969 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,969 - INFO - Column tel, row 7: Corrected value: 603787891 -> +212603787891
+2024-12-08 21:11:14,969 - WARNING - Anomaly detected in column tel at row 8: Value '658717744' is incorrect.
+2024-12-08 21:11:14,969 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,969 - INFO - Column tel, row 8: Corrected value: 658717744 -> +212658717744
+2024-12-08 21:11:14,969 - WARNING - Anomaly detected in column tel at row 9: Value '632065780' is incorrect.
+2024-12-08 21:11:14,969 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,970 - INFO - Column tel, row 9: Corrected value: 632065780 -> +212632065780
+2024-12-08 21:11:14,970 - WARNING - Anomaly detected in column tel at row 10: Value '663272012' is incorrect.
+2024-12-08 21:11:14,970 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,970 - INFO - Column tel, row 10: Corrected value: 663272012 -> +212663272012
+2024-12-08 21:11:14,970 - WARNING - Anomaly detected in column tel at row 11: Value '669612367' is incorrect.
+2024-12-08 21:11:14,970 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,970 - INFO - Column tel, row 11: Corrected value: 669612367 -> +212669612367
+2024-12-08 21:11:14,970 - WARNING - Anomaly detected in column tel at row 12: Value '664532673' is incorrect.
+2024-12-08 21:11:14,970 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,970 - INFO - Column tel, row 12: Corrected value: 664532673 -> +212664532673
+2024-12-08 21:11:14,970 - WARNING - Anomaly detected in column tel at row 13: Value '626052182' is incorrect.
+2024-12-08 21:11:14,970 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,970 - INFO - Column tel, row 13: Corrected value: 626052182 -> +212626052182
+2024-12-08 21:11:14,970 - WARNING - Anomaly detected in column tel at row 14: Value '678360187' is incorrect.
+2024-12-08 21:11:14,970 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,970 - INFO - Column tel, row 14: Corrected value: 678360187 -> +212678360187
+2024-12-08 21:11:14,970 - WARNING - Anomaly detected in column tel at row 15: Value 'bac+2' is incorrect.
+2024-12-08 21:11:14,970 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,971 - INFO - Column tel, row 15: Corrected value: bac+2 -> None
+2024-12-08 21:11:14,971 - WARNING - Anomaly detected in column tel at row 16: Value '638394864' is incorrect.
+2024-12-08 21:11:14,971 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,971 - INFO - Column tel, row 16: Corrected value: 638394864 -> +212638394864
+2024-12-08 21:11:14,971 - WARNING - Anomaly detected in column tel at row 17: Value '644677927' is incorrect.
+2024-12-08 21:11:14,971 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,971 - INFO - Column tel, row 17: Corrected value: 644677927 -> +212644677927
+2024-12-08 21:11:14,971 - WARNING - Anomaly detected in column tel at row 18: Value '696238676' is incorrect.
+2024-12-08 21:11:14,971 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,971 - INFO - Column tel, row 18: Corrected value: 696238676 -> +212696238676
+2024-12-08 21:11:14,971 - WARNING - Anomaly detected in column tel at row 19: Value '661898040' is incorrect.
+2024-12-08 21:11:14,971 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,971 - INFO - Column tel, row 19: Corrected value: 661898040 -> +212661898040
+2024-12-08 21:11:14,971 - WARNING - Anomaly detected in column tel at row 20: Value '655986402' is incorrect.
+2024-12-08 21:11:14,971 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,971 - INFO - Column tel, row 20: Corrected value: 655986402 -> +212655986402
+2024-12-08 21:11:14,971 - WARNING - Anomaly detected in column tel at row 21: Value '672298364' is incorrect.
+2024-12-08 21:11:14,972 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,972 - INFO - Column tel, row 21: Corrected value: 672298364 -> +212672298364
+2024-12-08 21:11:14,972 - WARNING - Anomaly detected in column tel at row 22: Value '604245865' is incorrect.
+2024-12-08 21:11:14,972 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,972 - INFO - Column tel, row 22: Corrected value: 604245865 -> +212604245865
+2024-12-08 21:11:14,972 - WARNING - Anomaly detected in column tel at row 23: Value '675722499' is incorrect.
+2024-12-08 21:11:14,972 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,972 - INFO - Column tel, row 23: Corrected value: 675722499 -> +212675722499
+2024-12-08 21:11:14,972 - WARNING - Anomaly detected in column tel at row 24: Value '653181927' is incorrect.
+2024-12-08 21:11:14,972 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,973 - INFO - Column tel, row 24: Corrected value: 653181927 -> +212653181927
+2024-12-08 21:11:14,973 - WARNING - Anomaly detected in column tel at row 25: Value '606995526' is incorrect.
+2024-12-08 21:11:14,973 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,973 - INFO - Column tel, row 25: Corrected value: 606995526 -> +212606995526
+2024-12-08 21:11:14,973 - WARNING - Anomaly detected in column tel at row 26: Value '620178904' is incorrect.
+2024-12-08 21:11:14,973 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,973 - INFO - Column tel, row 26: Corrected value: 620178904 -> +212620178904
+2024-12-08 21:11:14,973 - WARNING - Anomaly detected in column tel at row 27: Value '523431545' is incorrect.
+2024-12-08 21:11:14,973 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,973 - INFO - Column tel, row 27: Corrected value: 523431545 -> None
+2024-12-08 21:11:14,973 - WARNING - Anomaly detected in column tel at row 28: Value '645117040' is incorrect.
+2024-12-08 21:11:14,974 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,974 - INFO - Column tel, row 28: Corrected value: 645117040 -> +212645117040
+2024-12-08 21:11:14,974 - WARNING - Anomaly detected in column tel at row 29: Value '629830743' is incorrect.
+2024-12-08 21:11:14,974 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,974 - INFO - Column tel, row 29: Corrected value: 629830743 -> +212629830743
+2024-12-08 21:11:14,974 - WARNING - Anomaly detected in column tel at row 30: Value '672840643' is incorrect.
+2024-12-08 21:11:14,974 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,974 - INFO - Column tel, row 30: Corrected value: 672840643 -> +212672840643
+2024-12-08 21:11:14,974 - WARNING - Anomaly detected in column tel at row 31: Value '603245606' is incorrect.
+2024-12-08 21:11:14,974 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,974 - INFO - Column tel, row 31: Corrected value: 603245606 -> +212603245606
+2024-12-08 21:11:14,974 - WARNING - Anomaly detected in column tel at row 32: Value '610593582' is incorrect.
+2024-12-08 21:11:14,974 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,975 - INFO - Column tel, row 32: Corrected value: 610593582 -> +212610593582
+2024-12-08 21:11:14,975 - WARNING - Anomaly detected in column tel at row 33: Value '652151850' is incorrect.
+2024-12-08 21:11:14,975 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,975 - INFO - Column tel, row 33: Corrected value: 652151850 -> +212652151850
+2024-12-08 21:11:14,975 - WARNING - Anomaly detected in column tel at row 34: Value '628820939' is incorrect.
+2024-12-08 21:11:14,975 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,975 - INFO - Column tel, row 34: Corrected value: 628820939 -> +212628820939
+2024-12-08 21:11:14,975 - WARNING - Anomaly detected in column tel at row 35: Value '628820939' is incorrect.
+2024-12-08 21:11:14,975 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,975 - INFO - Column tel, row 35: Corrected value: 628820939 -> +212628820939
+2024-12-08 21:11:14,975 - WARNING - Anomaly detected in column tel at row 36: Value '620178904' is incorrect.
+2024-12-08 21:11:14,975 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,975 - INFO - Column tel, row 36: Corrected value: 620178904 -> +212620178904
+2024-12-08 21:11:14,976 - WARNING - Anomaly detected in column tel at row 37: Value '653916507' is incorrect.
+2024-12-08 21:11:14,976 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,976 - INFO - Column tel, row 37: Corrected value: 653916507 -> +212653916507
+2024-12-08 21:11:14,976 - WARNING - Anomaly detected in column tel at row 38: Value '666891711' is incorrect.
+2024-12-08 21:11:14,976 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,976 - INFO - Column tel, row 38: Corrected value: 666891711 -> +212666891711
+2024-12-08 21:11:14,976 - WARNING - Anomaly detected in column tel at row 39: Value '630574648' is incorrect.
+2024-12-08 21:11:14,976 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,976 - INFO - Column tel, row 39: Corrected value: 630574648 -> +212630574648
+2024-12-08 21:11:14,976 - WARNING - Anomaly detected in column tel at row 40: Value '699228612' is incorrect.
+2024-12-08 21:11:14,976 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,976 - INFO - Column tel, row 40: Corrected value: 699228612 -> +212699228612
+2024-12-08 21:11:14,976 - WARNING - Anomaly detected in column tel at row 41: Value '699286861' is incorrect.
+2024-12-08 21:11:14,976 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,977 - INFO - Column tel, row 41: Corrected value: 699286861 -> +212699286861
+2024-12-08 21:11:14,977 - WARNING - Anomaly detected in column tel at row 42: Value '651460339' is incorrect.
+2024-12-08 21:11:14,977 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,977 - INFO - Column tel, row 42: Corrected value: 651460339 -> +212651460339
+2024-12-08 21:11:14,977 - WARNING - Anomaly detected in column tel at row 43: Value '651316160' is incorrect.
+2024-12-08 21:11:14,977 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,977 - INFO - Column tel, row 43: Corrected value: 651316160 -> +212651316160
+2024-12-08 21:11:14,977 - WARNING - Anomaly detected in column tel at row 44: Value '610840153' is incorrect.
+2024-12-08 21:11:14,977 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,977 - INFO - Column tel, row 44: Corrected value: 610840153 -> +212610840153
+2024-12-08 21:11:14,977 - WARNING - Anomaly detected in column tel at row 45: Value '600636312' is incorrect.
+2024-12-08 21:11:14,977 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,977 - INFO - Column tel, row 45: Corrected value: 600636312 -> +212600636312
+2024-12-08 21:11:14,977 - WARNING - Anomaly detected in column tel at row 46: Value '676526570' is incorrect.
+2024-12-08 21:11:14,978 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,978 - INFO - Column tel, row 46: Corrected value: 676526570 -> +212676526570
+2024-12-08 21:11:14,978 - WARNING - Anomaly detected in column tel at row 47: Value '667967190' is incorrect.
+2024-12-08 21:11:14,978 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,978 - INFO - Column tel, row 47: Corrected value: 667967190 -> +212667967190
+2024-12-08 21:11:14,978 - WARNING - Anomaly detected in column tel at row 48: Value '674919313' is incorrect.
+2024-12-08 21:11:14,978 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,978 - INFO - Column tel, row 48: Corrected value: 674919313 -> +212674919313
+2024-12-08 21:11:14,978 - WARNING - Anomaly detected in column tel at row 49: Value '633303681' is incorrect.
+2024-12-08 21:11:14,978 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,978 - INFO - Column tel, row 49: Corrected value: 633303681 -> +212633303681
+2024-12-08 21:11:14,979 - WARNING - Anomaly detected in column tel at row 50: Value '606028619' is incorrect.
+2024-12-08 21:11:14,979 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,979 - INFO - Column tel, row 50: Corrected value: 606028619 -> +212606028619
+2024-12-08 21:11:14,979 - WARNING - Anomaly detected in column tel at row 51: Value '678807880' is incorrect.
+2024-12-08 21:11:14,979 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,979 - INFO - Column tel, row 51: Corrected value: 678807880 -> +212678807880
+2024-12-08 21:11:14,979 - WARNING - Anomaly detected in column tel at row 52: Value '645737390' is incorrect.
+2024-12-08 21:11:14,979 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,979 - INFO - Column tel, row 52: Corrected value: 645737390 -> +212645737390
+2024-12-08 21:11:14,979 - WARNING - Anomaly detected in column tel at row 53: Value '668458361' is incorrect.
+2024-12-08 21:11:14,979 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,979 - INFO - Column tel, row 53: Corrected value: 668458361 -> +212668458361
+2024-12-08 21:11:14,979 - WARNING - Anomaly detected in column tel at row 54: Value '637702826' is incorrect.
+2024-12-08 21:11:14,980 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,980 - INFO - Column tel, row 54: Corrected value: 637702826 -> +212637702826
+2024-12-08 21:11:14,980 - WARNING - Anomaly detected in column tel at row 55: Value '699085027' is incorrect.
+2024-12-08 21:11:14,980 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,980 - INFO - Column tel, row 55: Corrected value: 699085027 -> +212699085027
+2024-12-08 21:11:14,980 - WARNING - Anomaly detected in column tel at row 56: Value '673756310' is incorrect.
+2024-12-08 21:11:14,980 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,980 - INFO - Column tel, row 56: Corrected value: 673756310 -> +212673756310
+2024-12-08 21:11:14,980 - WARNING - Anomaly detected in column tel at row 57: Value '671955675' is incorrect.
+2024-12-08 21:11:14,980 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,980 - INFO - Column tel, row 57: Corrected value: 671955675 -> +212671955675
+2024-12-08 21:11:14,980 - WARNING - Anomaly detected in column tel at row 58: Value '678780607' is incorrect.
+2024-12-08 21:11:14,980 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,980 - INFO - Column tel, row 58: Corrected value: 678780607 -> +212678780607
+2024-12-08 21:11:14,980 - WARNING - Anomaly detected in column tel at row 59: Value '611020828' is incorrect.
+2024-12-08 21:11:14,980 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,980 - INFO - Column tel, row 59: Corrected value: 611020828 -> +212611020828
+2024-12-08 21:11:14,981 - WARNING - Anomaly detected in column tel at row 60: Value '645911161' is incorrect.
+2024-12-08 21:11:14,981 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,981 - INFO - Column tel, row 60: Corrected value: 645911161 -> +212645911161
+2024-12-08 21:11:14,981 - WARNING - Anomaly detected in column tel at row 61: Value '618390378' is incorrect.
+2024-12-08 21:11:14,981 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,981 - INFO - Column tel, row 61: Corrected value: 618390378 -> +212618390378
+2024-12-08 21:11:14,981 - WARNING - Anomaly detected in column tel at row 62: Value '610831238' is incorrect.
+2024-12-08 21:11:14,981 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,981 - INFO - Column tel, row 62: Corrected value: 610831238 -> +212610831238
+2024-12-08 21:11:14,981 - WARNING - Anomaly detected in column tel at row 63: Value '607178770' is incorrect.
+2024-12-08 21:11:14,981 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,981 - INFO - Column tel, row 63: Corrected value: 607178770 -> +212607178770
+2024-12-08 21:11:14,981 - WARNING - Anomaly detected in column tel at row 64: Value '612597448' is incorrect.
+2024-12-08 21:11:14,981 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,981 - INFO - Column tel, row 64: Corrected value: 612597448 -> +212612597448
+2024-12-08 21:11:14,981 - WARNING - Anomaly detected in column tel at row 65: Value '699504400' is incorrect.
+2024-12-08 21:11:14,981 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,981 - INFO - Column tel, row 65: Corrected value: 699504400 -> +212699504400
+2024-12-08 21:11:14,981 - WARNING - Anomaly detected in column tel at row 66: Value '602675724' is incorrect.
+2024-12-08 21:11:14,982 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,982 - INFO - Column tel, row 66: Corrected value: 602675724 -> +212602675724
+2024-12-08 21:11:14,982 - WARNING - Anomaly detected in column tel at row 67: Value '667093117' is incorrect.
+2024-12-08 21:11:14,982 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,982 - INFO - Column tel, row 67: Corrected value: 667093117 -> +212667093117
+2024-12-08 21:11:14,982 - WARNING - Anomaly detected in column tel at row 68: Value '691784415' is incorrect.
+2024-12-08 21:11:14,982 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,982 - INFO - Column tel, row 68: Corrected value: 691784415 -> +212691784415
+2024-12-08 21:11:14,982 - WARNING - Anomaly detected in column tel at row 69: Value '623197765' is incorrect.
+2024-12-08 21:11:14,982 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,982 - INFO - Column tel, row 69: Corrected value: 623197765 -> +212623197765
+2024-12-08 21:11:14,982 - WARNING - Anomaly detected in column tel at row 70: Value '642047002' is incorrect.
+2024-12-08 21:11:14,982 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,982 - INFO - Column tel, row 70: Corrected value: 642047002 -> +212642047002
+2024-12-08 21:11:14,982 - WARNING - Anomaly detected in column tel at row 71: Value '649070636' is incorrect.
+2024-12-08 21:11:14,982 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,983 - INFO - Column tel, row 71: Corrected value: 649070636 -> +212649070636
+2024-12-08 21:11:14,983 - WARNING - Anomaly detected in column tel at row 72: Value '678564031' is incorrect.
+2024-12-08 21:11:14,983 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,983 - INFO - Column tel, row 72: Corrected value: 678564031 -> +212678564031
+2024-12-08 21:11:14,983 - WARNING - Anomaly detected in column tel at row 73: Value '601058592' is incorrect.
+2024-12-08 21:11:14,983 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,983 - INFO - Column tel, row 73: Corrected value: 601058592 -> +212601058592
+2024-12-08 21:11:14,983 - WARNING - Anomaly detected in column tel at row 74: Value '690905834' is incorrect.
+2024-12-08 21:11:14,983 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,983 - INFO - Column tel, row 74: Corrected value: 690905834 -> +212690905834
+2024-12-08 21:11:14,983 - WARNING - Anomaly detected in column tel at row 75: Value '617883770' is incorrect.
+2024-12-08 21:11:14,984 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,984 - INFO - Column tel, row 75: Corrected value: 617883770 -> +212617883770
+2024-12-08 21:11:14,984 - WARNING - Anomaly detected in column tel at row 76: Value '677094599' is incorrect.
+2024-12-08 21:11:14,984 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,984 - INFO - Column tel, row 76: Corrected value: 677094599 -> +212677094599
+2024-12-08 21:11:14,984 - WARNING - Anomaly detected in column tel at row 77: Value '620718467' is incorrect.
+2024-12-08 21:11:14,984 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,984 - INFO - Column tel, row 77: Corrected value: 620718467 -> +212620718467
+2024-12-08 21:11:14,984 - WARNING - Anomaly detected in column tel at row 78: Value '662044840' is incorrect.
+2024-12-08 21:11:14,984 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,984 - INFO - Column tel, row 78: Corrected value: 662044840 -> +212662044840
+2024-12-08 21:11:14,984 - WARNING - Anomaly detected in column tel at row 79: Value '651242339' is incorrect.
+2024-12-08 21:11:14,984 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,984 - INFO - Column tel, row 79: Corrected value: 651242339 -> +212651242339
+2024-12-08 21:11:14,984 - WARNING - Anomaly detected in column tel at row 80: Value '635603374' is incorrect.
+2024-12-08 21:11:14,984 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,984 - INFO - Column tel, row 80: Corrected value: 635603374 -> +212635603374
+2024-12-08 21:11:14,984 - WARNING - Anomaly detected in column tel at row 81: Value '678393911' is incorrect.
+2024-12-08 21:11:14,984 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,985 - INFO - Column tel, row 81: Corrected value: 678393911 -> +212678393911
+2024-12-08 21:11:14,985 - WARNING - Anomaly detected in column tel at row 82: Value '624862758' is incorrect.
+2024-12-08 21:11:14,985 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,985 - INFO - Column tel, row 82: Corrected value: 624862758 -> +212624862758
+2024-12-08 21:11:14,985 - WARNING - Anomaly detected in column tel at row 83: Value '655112578' is incorrect.
+2024-12-08 21:11:14,985 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,985 - INFO - Column tel, row 83: Corrected value: 655112578 -> +212655112578
+2024-12-08 21:11:14,985 - WARNING - Anomaly detected in column tel at row 84: Value '618699293' is incorrect.
+2024-12-08 21:11:14,985 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,985 - INFO - Column tel, row 84: Corrected value: 618699293 -> +212618699293
+2024-12-08 21:11:14,985 - WARNING - Anomaly detected in column tel at row 85: Value '629451918' is incorrect.
+2024-12-08 21:11:14,985 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,985 - INFO - Column tel, row 85: Corrected value: 629451918 -> +212629451918
+2024-12-08 21:11:14,985 - WARNING - Anomaly detected in column tel at row 86: Value '619931694' is incorrect.
+2024-12-08 21:11:14,985 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,985 - INFO - Column tel, row 86: Corrected value: 619931694 -> +212619931694
+2024-12-08 21:11:14,985 - WARNING - Anomaly detected in column tel at row 87: Value '616074839' is incorrect.
+2024-12-08 21:11:14,985 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,986 - INFO - Column tel, row 87: Corrected value: 616074839 -> +212616074839
+2024-12-08 21:11:14,986 - WARNING - Anomaly detected in column tel at row 88: Value '212649751757' is incorrect.
+2024-12-08 21:11:14,986 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,986 - INFO - Column tel, row 88: Corrected value: 212649751757 -> +212649751757
+2024-12-08 21:11:14,986 - WARNING - Anomaly detected in column tel at row 89: Value '630047515' is incorrect.
+2024-12-08 21:11:14,986 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,986 - INFO - Column tel, row 89: Corrected value: 630047515 -> +212630047515
+2024-12-08 21:11:14,986 - WARNING - Anomaly detected in column tel at row 90: Value '666544796' is incorrect.
+2024-12-08 21:11:14,986 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,986 - INFO - Column tel, row 90: Corrected value: 666544796 -> +212666544796
+2024-12-08 21:11:14,986 - WARNING - Anomaly detected in column tel at row 91: Value '668676988' is incorrect.
+2024-12-08 21:11:14,986 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,986 - INFO - Column tel, row 91: Corrected value: 668676988 -> +212668676988
+2024-12-08 21:11:14,986 - WARNING - Anomaly detected in column tel at row 92: Value '648089314' is incorrect.
+2024-12-08 21:11:14,986 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,986 - INFO - Column tel, row 92: Corrected value: 648089314 -> +212648089314
+2024-12-08 21:11:14,986 - WARNING - Anomaly detected in column tel at row 93: Value '662743250' is incorrect.
+2024-12-08 21:11:14,986 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,986 - INFO - Column tel, row 93: Corrected value: 662743250 -> +212662743250
+2024-12-08 21:11:14,987 - WARNING - Anomaly detected in column tel at row 94: Value '642253858' is incorrect.
+2024-12-08 21:11:14,987 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,987 - INFO - Column tel, row 94: Corrected value: 642253858 -> +212642253858
+2024-12-08 21:11:14,987 - WARNING - Anomaly detected in column tel at row 95: Value '642105505' is incorrect.
+2024-12-08 21:11:14,987 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,987 - INFO - Column tel, row 95: Corrected value: 642105505 -> +212642105505
+2024-12-08 21:11:14,987 - WARNING - Anomaly detected in column tel at row 96: Value '661041695' is incorrect.
+2024-12-08 21:11:14,987 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,987 - INFO - Column tel, row 96: Corrected value: 661041695 -> +212661041695
+2024-12-08 21:11:14,987 - WARNING - Anomaly detected in column tel at row 97: Value '676658847' is incorrect.
+2024-12-08 21:11:14,987 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,987 - INFO - Column tel, row 97: Corrected value: 676658847 -> +212676658847
+2024-12-08 21:11:14,987 - WARNING - Anomaly detected in column tel at row 98: Value '6789432' is incorrect.
+2024-12-08 21:11:14,987 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,987 - INFO - Column tel, row 98: Corrected value: 6789432 -> None
+2024-12-08 21:11:14,987 - WARNING - Anomaly detected in column tel at row 99: Value '672357612' is incorrect.
+2024-12-08 21:11:14,987 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,987 - INFO - Column tel, row 99: Corrected value: 672357612 -> +212672357612
+2024-12-08 21:11:14,988 - WARNING - Anomaly detected in column tel at row 100: Value '696841795' is incorrect.
+2024-12-08 21:11:14,988 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,988 - INFO - Column tel, row 100: Corrected value: 696841795 -> +212696841795
+2024-12-08 21:11:14,988 - WARNING - Anomaly detected in column tel at row 101: Value '674035639' is incorrect.
+2024-12-08 21:11:14,988 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,988 - INFO - Column tel, row 101: Corrected value: 674035639 -> +212674035639
+2024-12-08 21:11:14,988 - WARNING - Anomaly detected in column tel at row 102: Value 'nan' is incorrect.
+2024-12-08 21:11:14,988 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,988 - INFO - Column tel, row 102: Corrected value: nan -> None
+2024-12-08 21:11:14,988 - WARNING - Anomaly detected in column tel at row 103: Value '662247615' is incorrect.
+2024-12-08 21:11:14,988 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,988 - INFO - Column tel, row 103: Corrected value: 662247615 -> +212662247615
+2024-12-08 21:11:14,989 - WARNING - Anomaly detected in column tel at row 104: Value '661237016' is incorrect.
+2024-12-08 21:11:14,989 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,989 - INFO - Column tel, row 104: Corrected value: 661237016 -> +212661237016
+2024-12-08 21:11:14,989 - WARNING - Anomaly detected in column tel at row 105: Value '600128969' is incorrect.
+2024-12-08 21:11:14,989 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,989 - INFO - Column tel, row 105: Corrected value: 600128969 -> +212600128969
+2024-12-08 21:11:14,989 - WARNING - Anomaly detected in column tel at row 106: Value '675890039' is incorrect.
+2024-12-08 21:11:14,989 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,989 - INFO - Column tel, row 106: Corrected value: 675890039 -> +212675890039
+2024-12-08 21:11:14,989 - WARNING - Anomaly detected in column tel at row 107: Value '673126522' is incorrect.
+2024-12-08 21:11:14,989 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,989 - INFO - Column tel, row 107: Corrected value: 673126522 -> +212673126522
+2024-12-08 21:11:14,989 - WARNING - Anomaly detected in column tel at row 108: Value '645931393' is incorrect.
+2024-12-08 21:11:14,989 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,989 - INFO - Column tel, row 108: Corrected value: 645931393 -> +212645931393
+2024-12-08 21:11:14,989 - WARNING - Anomaly detected in column tel at row 109: Value '693412902' is incorrect.
+2024-12-08 21:11:14,989 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,990 - INFO - Column tel, row 109: Corrected value: 693412902 -> +212693412902
+2024-12-08 21:11:14,990 - WARNING - Anomaly detected in column tel at row 110: Value '661904030' is incorrect.
+2024-12-08 21:11:14,990 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,990 - INFO - Column tel, row 110: Corrected value: 661904030 -> +212661904030
+2024-12-08 21:11:14,991 - WARNING - Anomaly detected in column tel at row 111: Value '648789082' is incorrect.
+2024-12-08 21:11:14,991 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,991 - INFO - Column tel, row 111: Corrected value: 648789082 -> +212648789082
+2024-12-08 21:11:14,991 - WARNING - Anomaly detected in column tel at row 112: Value '604769245' is incorrect.
+2024-12-08 21:11:14,991 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,991 - INFO - Column tel, row 112: Corrected value: 604769245 -> +212604769245
+2024-12-08 21:11:14,991 - WARNING - Anomaly detected in column tel at row 113: Value '537438067' is incorrect.
+2024-12-08 21:11:14,991 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,991 - INFO - Column tel, row 113: Corrected value: 537438067 -> None
+2024-12-08 21:11:14,991 - WARNING - Anomaly detected in column tel at row 114: Value '642134627' is incorrect.
+2024-12-08 21:11:14,991 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,992 - INFO - Column tel, row 114: Corrected value: 642134627 -> +212642134627
+2024-12-08 21:11:14,992 - WARNING - Anomaly detected in column tel at row 115: Value '649375606' is incorrect.
+2024-12-08 21:11:14,992 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,992 - INFO - Column tel, row 115: Corrected value: 649375606 -> +212649375606
+2024-12-08 21:11:14,992 - WARNING - Anomaly detected in column tel at row 116: Value '644642126' is incorrect.
+2024-12-08 21:11:14,992 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,992 - INFO - Column tel, row 116: Corrected value: 644642126 -> +212644642126
+2024-12-08 21:11:14,992 - WARNING - Anomaly detected in column tel at row 117: Value '624941267' is incorrect.
+2024-12-08 21:11:14,992 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,992 - INFO - Column tel, row 117: Corrected value: 624941267 -> +212624941267
+2024-12-08 21:11:14,992 - WARNING - Anomaly detected in column tel at row 118: Value '661658258' is incorrect.
+2024-12-08 21:11:14,992 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,992 - INFO - Column tel, row 118: Corrected value: 661658258 -> +212661658258
+2024-12-08 21:11:14,992 - WARNING - Anomaly detected in column tel at row 119: Value '650276177' is incorrect.
+2024-12-08 21:11:14,993 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,993 - INFO - Column tel, row 119: Corrected value: 650276177 -> +212650276177
+2024-12-08 21:11:14,993 - WARNING - Anomaly detected in column tel at row 120: Value '631815358' is incorrect.
+2024-12-08 21:11:14,993 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,993 - INFO - Column tel, row 120: Corrected value: 631815358 -> +212631815358
+2024-12-08 21:11:14,993 - WARNING - Anomaly detected in column tel at row 121: Value '677625676' is incorrect.
+2024-12-08 21:11:14,993 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,993 - INFO - Column tel, row 121: Corrected value: 677625676 -> +212677625676
+2024-12-08 21:11:14,993 - WARNING - Anomaly detected in column tel at row 122: Value '638233083' is incorrect.
+2024-12-08 21:11:14,993 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,993 - INFO - Column tel, row 122: Corrected value: 638233083 -> +212638233083
+2024-12-08 21:11:14,993 - WARNING - Anomaly detected in column tel at row 123: Value '664442981' is incorrect.
+2024-12-08 21:11:14,993 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,993 - INFO - Column tel, row 123: Corrected value: 664442981 -> +212664442981
+2024-12-08 21:11:14,993 - WARNING - Anomaly detected in column tel at row 124: Value '665130266' is incorrect.
+2024-12-08 21:11:14,994 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,994 - INFO - Column tel, row 124: Corrected value: 665130266 -> +212665130266
+2024-12-08 21:11:14,994 - WARNING - Anomaly detected in column tel at row 125: Value '633644581' is incorrect.
+2024-12-08 21:11:14,994 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,994 - INFO - Column tel, row 125: Corrected value: 633644581 -> +212633644581
+2024-12-08 21:11:14,994 - WARNING - Anomaly detected in column tel at row 126: Value '666165270' is incorrect.
+2024-12-08 21:11:14,994 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,994 - INFO - Column tel, row 126: Corrected value: 666165270 -> +212666165270
+2024-12-08 21:11:14,994 - WARNING - Anomaly detected in column tel at row 127: Value '641801151' is incorrect.
+2024-12-08 21:11:14,994 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,994 - INFO - Column tel, row 127: Corrected value: 641801151 -> +212641801151
+2024-12-08 21:11:14,994 - WARNING - Anomaly detected in column tel at row 128: Value '630198953' is incorrect.
+2024-12-08 21:11:14,994 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,994 - INFO - Column tel, row 128: Corrected value: 630198953 -> +212630198953
+2024-12-08 21:11:14,994 - WARNING - Anomaly detected in column tel at row 129: Value '691807496' is incorrect.
+2024-12-08 21:11:14,994 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,994 - INFO - Column tel, row 129: Corrected value: 691807496 -> +212691807496
+2024-12-08 21:11:14,995 - WARNING - Anomaly detected in column tel at row 130: Value '635693135' is incorrect.
+2024-12-08 21:11:14,995 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,995 - INFO - Column tel, row 130: Corrected value: 635693135 -> +212635693135
+2024-12-08 21:11:14,995 - WARNING - Anomaly detected in column tel at row 131: Value '642670096' is incorrect.
+2024-12-08 21:11:14,995 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,995 - INFO - Column tel, row 131: Corrected value: 642670096 -> +212642670096
+2024-12-08 21:11:14,995 - WARNING - Anomaly detected in column tel at row 132: Value '670046971' is incorrect.
+2024-12-08 21:11:14,995 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,995 - INFO - Column tel, row 132: Corrected value: 670046971 -> +212670046971
+2024-12-08 21:11:14,995 - WARNING - Anomaly detected in column tel at row 133: Value '666994047' is incorrect.
+2024-12-08 21:11:14,995 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,995 - INFO - Column tel, row 133: Corrected value: 666994047 -> +212666994047
+2024-12-08 21:11:14,995 - WARNING - Anomaly detected in column tel at row 134: Value '611076207' is incorrect.
+2024-12-08 21:11:14,995 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,995 - INFO - Column tel, row 134: Corrected value: 611076207 -> +212611076207
+2024-12-08 21:11:14,995 - WARNING - Anomaly detected in column tel at row 135: Value '604776955' is incorrect.
+2024-12-08 21:11:14,995 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,996 - INFO - Column tel, row 135: Corrected value: 604776955 -> +212604776955
+2024-12-08 21:11:14,996 - WARNING - Anomaly detected in column tel at row 136: Value '616940370' is incorrect.
+2024-12-08 21:11:14,996 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,996 - INFO - Column tel, row 136: Corrected value: 616940370 -> +212616940370
+2024-12-08 21:11:14,996 - WARNING - Anomaly detected in column tel at row 137: Value '666679252' is incorrect.
+2024-12-08 21:11:14,996 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,996 - INFO - Column tel, row 137: Corrected value: 666679252 -> +212666679252
+2024-12-08 21:11:14,996 - WARNING - Anomaly detected in column tel at row 138: Value '615110627' is incorrect.
+2024-12-08 21:11:14,996 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,996 - INFO - Column tel, row 138: Corrected value: 615110627 -> +212615110627
+2024-12-08 21:11:14,996 - WARNING - Anomaly detected in column tel at row 139: Value '607380118' is incorrect.
+2024-12-08 21:11:14,996 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,996 - INFO - Column tel, row 139: Corrected value: 607380118 -> +212607380118
+2024-12-08 21:11:14,996 - WARNING - Anomaly detected in column tel at row 140: Value '666290972' is incorrect.
+2024-12-08 21:11:14,996 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,997 - INFO - Column tel, row 140: Corrected value: 666290972 -> +212666290972
+2024-12-08 21:11:14,997 - WARNING - Anomaly detected in column tel at row 141: Value '615042008' is incorrect.
+2024-12-08 21:11:14,997 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,997 - INFO - Column tel, row 141: Corrected value: 615042008 -> +212615042008
+2024-12-08 21:11:14,997 - WARNING - Anomaly detected in column tel at row 142: Value '661414268' is incorrect.
+2024-12-08 21:11:14,997 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,997 - INFO - Column tel, row 142: Corrected value: 661414268 -> +212661414268
+2024-12-08 21:11:14,997 - WARNING - Anomaly detected in column tel at row 143: Value '694950654' is incorrect.
+2024-12-08 21:11:14,997 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,997 - INFO - Column tel, row 143: Corrected value: 694950654 -> +212694950654
+2024-12-08 21:11:14,998 - WARNING - Anomaly detected in column tel at row 144: Value '649278532' is incorrect.
+2024-12-08 21:11:14,998 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,998 - INFO - Column tel, row 144: Corrected value: 649278532 -> +212649278532
+2024-12-08 21:11:14,998 - WARNING - Anomaly detected in column tel at row 145: Value '615227007' is incorrect.
+2024-12-08 21:11:14,998 - INFO - Anomalies detected in column tel. Applying correction function.
+2024-12-08 21:11:14,998 - INFO - Column tel, row 145: Corrected value: 615227007 -> +212615227007
+2024-12-08 21:11:14,998 - INFO - Success: Anomalies corrected in column tel
+2024-12-08 21:11:14,999 - WARNING - Anomaly detected in column email at row 15: Value 'kokoko' is incorrect.
+2024-12-08 21:11:14,999 - INFO - Anomalies detected in column email. Applying correction function.
+2024-12-08 21:11:14,999 - INFO - Column email, row 15: Corrected value: kokoko -> kokoko@gmail.com
+2024-12-08 21:11:15,000 - WARNING - Anomaly detected in column email at row 19: Value 'nan' is incorrect.
+2024-12-08 21:11:15,000 - INFO - Anomalies detected in column email. Applying correction function.
+2024-12-08 21:11:15,000 - INFO - Column email, row 19: Corrected value: nan -> None
+2024-12-08 21:11:15,000 - WARNING - Anomaly detected in column email at row 66: Value 'fatima-zohra-el-bakkouri@hotma' is incorrect.
+2024-12-08 21:11:15,000 - INFO - Anomalies detected in column email. Applying correction function.
+2024-12-08 21:11:15,000 - INFO - Column email, row 66: Corrected value: fatima-zohra-el-bakkouri@hotma -> fatima-zohra-el-bakkouri@hotmail.com
+2024-12-08 21:11:15,000 - INFO - Success: Anomalies corrected in column email
+2024-12-08 21:11:15,001 - WARNING - Anomaly detected in column diplome at row 15: Value 'lar' is incorrect.
+2024-12-08 21:11:15,001 - INFO - Anomalies detected in column diplome. Applying correction function.
+2024-12-08 21:11:15,001 - INFO - Column diplome, row 15: Corrected value: lar -> None
+2024-12-08 21:11:15,001 - WARNING - Anomaly detected in column diplome at row 19: Value 'nan' is incorrect.
+2024-12-08 21:11:15,001 - INFO - Anomalies detected in column diplome. Applying correction function.
+2024-12-08 21:11:15,001 - INFO - Column diplome, row 19: Corrected value: nan -> None
+2024-12-08 21:11:15,001 - WARNING - Anomaly detected in column diplome at row 96: Value 'nan' is incorrect.
+2024-12-08 21:11:15,001 - INFO - Anomalies detected in column diplome. Applying correction function.
+2024-12-08 21:11:15,002 - INFO - Column diplome, row 96: Corrected value: nan -> None
+2024-12-08 21:11:15,002 - INFO - Success: Anomalies corrected in column diplome
+2024-12-08 21:11:15,002 - WARNING - Anomaly detected in column etat at row 48: Value 'Titulaire d’un diplôme de technicien spécialisé option «  Maintenance Automobile  » à L’institut de formation aux métiers de l’industrie Automobile, IFMIA Casablanca, motivé, autonome, disponible, rigoureux, sérieux et appliqué.' is incorrect.
+2024-12-08 21:11:15,003 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,003 - INFO - Column etat, row 48: Corrected value: Titulaire d’un diplôme de technicien spécialisé option «  Maintenance Automobile  » à L’institut de formation aux métiers de l’industrie Automobile, IFMIA Casablanca, motivé, autonome, disponible, rigoureux, sérieux et appliqué. -> 0
+2024-12-08 21:11:15,003 - WARNING - Anomaly detected in column etat at row 60: Value 'nan' is incorrect.
+2024-12-08 21:11:15,003 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,003 - INFO - Column etat, row 60: Corrected value: nan -> 0
+2024-12-08 21:11:15,003 - WARNING - Anomaly detected in column etat at row 62: Value 'nan' is incorrect.
+2024-12-08 21:11:15,003 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,003 - INFO - Column etat, row 62: Corrected value: nan -> 0
+2024-12-08 21:11:15,003 - WARNING - Anomaly detected in column etat at row 64: Value 'El Mehdi RABI' is incorrect.
+2024-12-08 21:11:15,003 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,003 - INFO - Column etat, row 64: Corrected value: El Mehdi RABI -> 0
+2024-12-08 21:11:15,003 - WARNING - Anomaly detected in column etat at row 65: Value 'Abdellah SABBARI' is incorrect.
+2024-12-08 21:11:15,003 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,004 - INFO - Column etat, row 65: Corrected value: Abdellah SABBARI -> 0
+2024-12-08 21:11:15,004 - WARNING - Anomaly detected in column etat at row 72: Value 'Taoufiki-Med-Amin' is incorrect.
+2024-12-08 21:11:15,004 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,004 - INFO - Column etat, row 72: Corrected value: Taoufiki-Med-Amin -> 0
+2024-12-08 21:11:15,004 - WARNING - Anomaly detected in column etat at row 93: Value 'Votre établissement, de par son professionnalisme et son rayonnement national, a retenu mon attention. Ainsi, durant mes études j’aimerais bien faire partie de votre personnel.' is incorrect.
+2024-12-08 21:11:15,004 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,004 - INFO - Column etat, row 93: Corrected value: Votre établissement, de par son professionnalisme et son rayonnement national, a retenu mon attention. Ainsi, durant mes études j’aimerais bien faire partie de votre personnel. -> 0
+2024-12-08 21:11:15,004 - WARNING - Anomaly detected in column etat at row 113: Value 'Ma formation en réseaux informatique  m'a permis d'acquérir de nombreuses compétences parmi celles que vous recherchez. Je possède tous les atouts qui me permettront de réussir dans le rôle que vous voudrez bien me confier. Motivation, rigueur et écoute sont les maîtres mots de mon comportement professionnel.  Intégrer votre entreprise, représente pour moi un réel enjeu d’avenir dans lequel mon travail et mon honnêteté pourront s’exprimer pleinement.  Restant à votre disposition pour toute information complémentaire, je suis disponible pour vous rencontrer lors d’un entretien à votre convenance.  Veuillez agréer, (Madame, Monsieur), l’expression de mes sincères salutations' is incorrect.
+2024-12-08 21:11:15,004 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,004 - INFO - Column etat, row 113: Corrected value: Ma formation en réseaux informatique  m'a permis d'acquérir de nombreuses compétences parmi celles que vous recherchez. Je possède tous les atouts qui me permettront de réussir dans le rôle que vous voudrez bien me confier. Motivation, rigueur et écoute sont les maîtres mots de mon comportement professionnel.  Intégrer votre entreprise, représente pour moi un réel enjeu d’avenir dans lequel mon travail et mon honnêteté pourront s’exprimer pleinement.  Restant à votre disposition pour toute information complémentaire, je suis disponible pour vous rencontrer lors d’un entretien à votre convenance.  Veuillez agréer, (Madame, Monsieur), l’expression de mes sincères salutations -> 0
+2024-12-08 21:11:15,004 - WARNING - Anomaly detected in column etat at row 119: Value 'nan' is incorrect.
+2024-12-08 21:11:15,012 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,012 - INFO - Column etat, row 119: Corrected value: nan -> 0
+2024-12-08 21:11:15,012 - WARNING - Anomaly detected in column etat at row 120: Value 'Honneur de vous présenter ma candidature afin de m’inscrire parmi les candidats master pour l’année universitaire 2015-2016, section master spécialisé  systèmes d'information.          Je suis titulaire d'une licence fondamentale sciences mathématiques & informatiques          tout en restant à votre entière disposition veuillez croire mes s'insère salutations les plus dévouées.' is incorrect.
+2024-12-08 21:11:15,012 - INFO - Anomalies detected in column etat. Applying correction function.
+2024-12-08 21:11:15,012 - INFO - Column etat, row 120: Corrected value: Honneur de vous présenter ma candidature afin de m’inscrire parmi les candidats master pour l’année universitaire 2015-2016, section master spécialisé  systèmes d'information.          Je suis titulaire d'une licence fondamentale sciences mathématiques & informatiques          tout en restant à votre entière disposition veuillez croire mes s'insère salutations les plus dévouées. -> 0
+2024-12-08 21:11:15,013 - INFO - Success: Anomalies corrected in column etat
+2024-12-08 21:11:15,014 - WARNING - Anomaly detected in column viewed at row 48: Value 'Dans l’attente d’une réponse favorable, veuillez recevoir, Monsieur le Directeur, l’expression de mes sentiments respectueux.' is incorrect.
+2024-12-08 21:11:15,014 - INFO - Anomalies detected in column viewed. Applying correction function.
+2024-12-08 21:11:15,014 - INFO - Column viewed, row 48: Corrected value: Dans l’attente d’une réponse favorable, veuillez recevoir, Monsieur le Directeur, l’expression de mes sentiments respectueux. -> 0
+2024-12-08 21:11:15,014 - WARNING - Anomaly detected in column viewed at row 60: Value 'Monsieur le directeur  de l'ENSAK Khouribga    Object : candidature en licence professionnelle   Madame, Monsieur,  Actuellement je suis diplômé de l'institut spécialisé en technologie appliquée de TAZA en électromécanique des systèmes automatisés,  Je souhaiterais pouvoir intégrer en licence professionnelle branche Génie Énergétique .  J’ai étudié au cours de ma formation les domaines de l'électricité et j'ai approfondi mes connaissances en matière de l'automatique lors de ma période de formation à l'ISTA . Mon précédent stage au service controle-commande des postes HT-MT chez l'office nationale d'électricité et d'eau potable branche électricité  m’a permis d’aborder d’un point de vue pratique les problématiques liées aux systèmes énergétiques . J’ai également étudié l'électrotechnique. l'électronique de puissance et la logique combinatoire-séquentielle.   En espérant pouvoir vous exprimer ma motivation dans le cadre d’un entretien, je vous prie de croire, Monsieur, à l’expression de mes salutations distinguées, Anass LAQLII' is incorrect.
+2024-12-08 21:11:15,014 - INFO - Anomalies detected in column viewed. Applying correction function.
+2024-12-08 21:11:15,014 - INFO - Column viewed, row 60: Corrected value: Monsieur le directeur  de l'ENSAK Khouribga    Object : candidature en licence professionnelle   Madame, Monsieur,  Actuellement je suis diplômé de l'institut spécialisé en technologie appliquée de TAZA en électromécanique des systèmes automatisés,  Je souhaiterais pouvoir intégrer en licence professionnelle branche Génie Énergétique .  J’ai étudié au cours de ma formation les domaines de l'électricité et j'ai approfondi mes connaissances en matière de l'automatique lors de ma période de formation à l'ISTA . Mon précédent stage au service controle-commande des postes HT-MT chez l'office nationale d'électricité et d'eau potable branche électricité  m’a permis d’aborder d’un point de vue pratique les problématiques liées aux systèmes énergétiques . J’ai également étudié l'électrotechnique. l'électronique de puissance et la logique combinatoire-séquentielle.   En espérant pouvoir vous exprimer ma motivation dans le cadre d’un entretien, je vous prie de croire, Monsieur, à l’expression de mes salutations distinguées, Anass LAQLII -> 0
+2024-12-08 21:11:15,014 - WARNING - Anomaly detected in column viewed at row 62: Value 'nan' is incorrect.
+2024-12-08 21:11:15,014 - INFO - Anomalies detected in column viewed. Applying correction function.
+2024-12-08 21:11:15,014 - INFO - Column viewed, row 62: Corrected value: nan -> 0
+2024-12-08 21:11:15,015 - WARNING - Anomaly detected in column viewed at row 93: Value 'Très intéressé par le secteur informatique, je suis particulièrement sensible à  l’architecture des ordinateurs, maintenance informatique  ainsi  que  l’architecture et  l’administration  des réseaux informatiques. Grâce  à ma formation, je possède déjà un savoir-faire et vous sollicite pour le mettre en pratique au sein de votre établissement en apprenant ce que peut  être la réalité  du monde de travail.' is incorrect.
+2024-12-08 21:11:15,015 - INFO - Anomalies detected in column viewed. Applying correction function.
+2024-12-08 21:11:15,015 - INFO - Column viewed, row 93: Corrected value: Très intéressé par le secteur informatique, je suis particulièrement sensible à  l’architecture des ordinateurs, maintenance informatique  ainsi  que  l’architecture et  l’administration  des réseaux informatiques. Grâce  à ma formation, je possède déjà un savoir-faire et vous sollicite pour le mettre en pratique au sein de votre établissement en apprenant ce que peut  être la réalité  du monde de travail. -> 0
+2024-12-08 21:11:15,015 - WARNING - Anomaly detected in column viewed at row 119: Value 'nan' is incorrect.
+2024-12-08 21:11:15,015 - INFO - Anomalies detected in column viewed. Applying correction function.
+2024-12-08 21:11:15,015 - INFO - Column viewed, row 119: Corrected value: nan -> 0
+2024-12-08 21:11:15,015 - INFO - Success: Anomalies corrected in column viewed
+2024-12-08 21:11:15,015 - WARNING - Anomaly detected in column contacte at row 15: Value '2015-06-29 03:46:18' is incorrect.
+2024-12-08 21:11:15,016 - INFO - Anomalies detected in column contacte. Applying correction function.
+2024-12-08 21:11:15,016 - INFO - Column contacte, row 15: Corrected value: 2015-06-29 03:46:18 -> 0
+2024-12-08 21:11:15,016 - WARNING - Anomaly detected in column contacte at row 62: Value 'nan' is incorrect.
+2024-12-08 21:11:15,016 - INFO - Anomalies detected in column contacte. Applying correction function.
+2024-12-08 21:11:15,016 - INFO - Column contacte, row 62: Corrected value: nan -> 0
+2024-12-08 21:11:15,016 - WARNING - Anomaly detected in column contacte at row 93: Value 'Afin que vous jugiez de ma motivation et de mes compétences, je tiens dès à présent à votre disposition pour un futur entretien.' is incorrect.
+2024-12-08 21:11:15,016 - INFO - Anomalies detected in column contacte. Applying correction function.
+2024-12-08 21:11:15,016 - INFO - Column contacte, row 93: Corrected value: Afin que vous jugiez de ma motivation et de mes compétences, je tiens dès à présent à votre disposition pour un futur entretien. -> 0
+2024-12-08 21:11:15,016 - WARNING - Anomaly detected in column contacte at row 119: Value 'Faite à Fes, le 21/09/2015. NR 161 HAY TAKSEBT  31000, SEFROU 0610831238 oussama.khachiai@gmail.com' is incorrect.
+2024-12-08 21:11:15,016 - INFO - Anomalies detected in column contacte. Applying correction function.
+2024-12-08 21:11:15,016 - INFO - Column contacte, row 119: Corrected value: Faite à Fes, le 21/09/2015. NR 161 HAY TAKSEBT  31000, SEFROU 0610831238 oussama.khachiai@gmail.com -> 0
+2024-12-08 21:11:15,016 - INFO - Success: Anomalies corrected in column contacte
+2024-12-08 21:11:15,017 - WARNING - Anomaly detected in column inscrit at row 15: Value 'nan' is incorrect.
+2024-12-08 21:11:15,017 - INFO - Anomalies detected in column inscrit. Applying correction function.
+2024-12-08 21:11:15,017 - INFO - Column inscrit, row 15: Corrected value: nan -> 0
+2024-12-08 21:11:15,017 - WARNING - Anomaly detected in column inscrit at row 62: Value 'nan' is incorrect.
+2024-12-08 21:11:15,018 - INFO - Anomalies detected in column inscrit. Applying correction function.
+2024-12-08 21:11:15,018 - INFO - Column inscrit, row 62: Corrected value: nan -> 0
+2024-12-08 21:11:15,018 - WARNING - Anomaly detected in column inscrit at row 93: Value 'Dans cette attente, je vous prie d’gréer, Monsieur, l’expression de mes salutations distinguées.                                                                                                                                                           Signé : Larbi Cherif Zaoui' is incorrect.
+2024-12-08 21:11:15,018 - INFO - Anomalies detected in column inscrit. Applying correction function.
+2024-12-08 21:11:15,018 - INFO - Column inscrit, row 93: Corrected value: Dans cette attente, je vous prie d’gréer, Monsieur, l’expression de mes salutations distinguées.                                                                                                                                                           Signé : Larbi Cherif Zaoui -> 0
+2024-12-08 21:11:15,018 - WARNING - Anomaly detected in column inscrit at row 119: Value 'nan' is incorrect.
+2024-12-08 21:11:15,018 - INFO - Anomalies detected in column inscrit. Applying correction function.
+2024-12-08 21:11:15,018 - INFO - Column inscrit, row 119: Corrected value: nan -> 0
+2024-12-08 21:11:15,018 - INFO - Success: Anomalies corrected in column inscrit
+2024-12-08 21:11:15,041 - WARNING - Anomaly detected in column created at row 15: Value 'nan' is incorrect.
+2024-12-08 21:11:15,041 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,041 - INFO - Column created, row 15: Corrected value: nan -> None
+2024-12-08 21:11:15,046 - WARNING - Anomaly detected in column created at row 48: Value '1' is incorrect.
+2024-12-08 21:11:15,046 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,046 - INFO - Column created, row 48: Corrected value: 1 -> None
+2024-12-08 21:11:15,047 - WARNING - Anomaly detected in column created at row 60: Value '0' is incorrect.
+2024-12-08 21:11:15,047 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,047 - INFO - Column created, row 60: Corrected value: 0 -> None
+2024-12-08 21:11:15,048 - WARNING - Anomaly detected in column created at row 62: Value 'nan' is incorrect.
+2024-12-08 21:11:15,048 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,048 - INFO - Column created, row 62: Corrected value: nan -> None
+2024-12-08 21:11:15,048 - WARNING - Anomaly detected in column created at row 64: Value '0' is incorrect.
+2024-12-08 21:11:15,048 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,048 - INFO - Column created, row 64: Corrected value: 0 -> None
+2024-12-08 21:11:15,048 - WARNING - Anomaly detected in column created at row 65: Value '0' is incorrect.
+2024-12-08 21:11:15,048 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,048 - INFO - Column created, row 65: Corrected value: 0 -> None
+2024-12-08 21:11:15,049 - WARNING - Anomaly detected in column created at row 72: Value '0' is incorrect.
+2024-12-08 21:11:15,049 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,049 - INFO - Column created, row 72: Corrected value: 0 -> None
+2024-12-08 21:11:15,052 - WARNING - Anomaly detected in column created at row 93: Value '0' is incorrect.
+2024-12-08 21:11:15,052 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,052 - INFO - Column created, row 93: Corrected value: 0 -> None
+2024-12-08 21:11:15,054 - WARNING - Anomaly detected in column created at row 113: Value '0' is incorrect.
+2024-12-08 21:11:15,054 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,055 - INFO - Column created, row 113: Corrected value: 0 -> None
+2024-12-08 21:11:15,055 - WARNING - Anomaly detected in column created at row 119: Value 'nan' is incorrect.
+2024-12-08 21:11:15,055 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,055 - INFO - Column created, row 119: Corrected value: nan -> None
+2024-12-08 21:11:15,056 - WARNING - Anomaly detected in column created at row 120: Value '0' is incorrect.
+2024-12-08 21:11:15,056 - INFO - Anomalies detected in column created. Applying correction function.
+2024-12-08 21:11:15,056 - INFO - Column created, row 120: Corrected value: 0 -> None
+2024-12-08 21:11:15,059 - INFO - Success: Anomalies corrected in column created
+2024-12-08 21:11:15,068 - INFO - Started: Interpolating date values in created column
+2024-12-08 21:11:15,072 - INFO - Success: Interpolating date values in created column
+2024-12-08 21:11:15,085 - INFO - Started: Filling column 'ville' based on 'cin' column
+2024-12-08 21:11:15,087 - INFO - Success: Filling column 'ville' based on 'cin' column
+2024-12-08 21:11:15,098 - INFO - Started: Removing rows with null values
+2024-12-08 21:11:15,100 - INFO - Success: Removing rows with null values
+2024-12-08 21:11:15,110 - INFO - Started: Saving cleaned data to CSV
+2024-12-08 21:11:15,120 - INFO - Data saved to 'cleaned_file.csv' successfully
